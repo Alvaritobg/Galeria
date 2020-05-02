@@ -75,11 +75,10 @@ a:active {
 #flechaIzquierda {
   position: absolute;
   top: 50%;
-  left: 8%;
+  left: 5%;
   width:35px;
-  height:35px;
-
-
+  height:25px;
+  background-color: rgba(218, 218, 218, 0.5);
 }
 
 #divimgvisor {
@@ -88,11 +87,11 @@ a:active {
 
 #flechaDerecha {
   position: absolute;
-  position: absolute;
   top: 50%;
-  right: 8%;
+  right: 5%;
   width:35px;
-  height:35px;
+  height:25px;
+  background-color: rgba(218, 218, 218, 0.5);
 
 
 }

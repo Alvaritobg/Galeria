@@ -3,6 +3,7 @@ window.onload = inicio;
 var figuras = ['01', '02', '03', '04', '05', '06', '07', '08'];
 var miniaturas = 3;
 var imgVisor = figuras[0];
+var tope = figuras.length;
 
 function inicio() {
   //mostrar imagen principal
@@ -13,4 +14,15 @@ function inicio() {
     document.getElementById("dmini01").innerHTML +=
       `<a href="#"><img src="img/${figuras[i]}.jpg" alt="Imagen ${figuras[i]}" class="img-fluid mini"></a>`;
   }
+}
+
+var contador = 0;
+
+function fotoDerecha() {
+  do {
+    contador++;
+    document.getElementById("divimgvisor").innerHTML =
+      `<img src="img/${figuras[contador]}.jpg" alt="Imagen ${figuras[contador]}" class="img-fluid" id="imgvisor">`;
+  }
+  while (contador >= tope);
 }

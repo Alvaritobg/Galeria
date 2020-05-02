@@ -1,0 +1,110 @@
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  outline: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  outline: none;
+  text-decoration: none;
+}
+
+a:focus {
+ color: rgb(0, 0, 0);
+ outline: none;
+ text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 0px solid;
+  color: rgb(70, 68, 68);
+  outline: none;
+  text-decoration: none;
+}
+
+a:active {
+
+  color: rgb(159, 153, 151);
+  outline: none;
+  text-decoration: none;
+}
+
+
+#visor {
+  text-align: center;
+}
+
+#contenedorGaleria {
+  height: 80%;
+  width: auto;
+
+}
+
+.col-1, .col-2, .col-3, .col-8, .col-10, .col-12 {
+  /*border: 1px solid red;*/
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.mini {
+  position: relative;
+  padding: 0px 10px 10px 10px;
+  width: 25%;
+  float:left;
+}
+#flechaIzquierda {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  width:35px;
+  height:35px;
+
+
+}
+
+#divimgvisor {
+  position: relative;
+}
+
+#flechaDerecha {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  width:35px;
+  height:35px;
+
+
+}
+#imgvisor {
+  padding: 10px 10px 10px 10px;
+}
+
+#cuerpo {
+  text-align: center;
+}
+
+
+.container-fluid {
+
+}

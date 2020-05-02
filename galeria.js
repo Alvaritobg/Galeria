@@ -26,3 +26,11 @@ function fotoDerecha() {
   }
   while (contador >= tope);
 }
+function fotoIzquierda() {
+  do {
+    contador--;
+    document.getElementById("divimgvisor").innerHTML =
+      `<img src="img/${figuras[contador]}.jpg" alt="Imagen ${figuras[contador]}" class="img-fluid" id="imgvisor">`;
+  }
+  while (contador >= 0);
+}

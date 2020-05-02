@@ -17,7 +17,7 @@ function inicio() {
 }
 
 var contador = 0;
-
+//pasa a la siguiente img en el array
 function fotoDerecha() {
   do {
     contador++;
@@ -26,11 +26,12 @@ function fotoDerecha() {
   }
   while (contador >= tope);
 }
+//pasa a la img anterior en el array
 function fotoIzquierda() {
   do {
     contador--;
     document.getElementById("divimgvisor").innerHTML =
       `<img src="img/${figuras[contador]}.jpg" alt="Imagen ${figuras[contador]}" class="img-fluid" id="imgvisor">`;
   }
-  while (contador >= 0);
+  while (contador > 0);
 }

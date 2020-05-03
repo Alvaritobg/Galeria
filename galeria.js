@@ -18,7 +18,7 @@ function inicio() {
   //mostrar imagenes de las 4 miniaturas
   for (var i = 1; i <= 4; i++) {
       document.getElementById("dmini01").innerHTML +=
-          `<a href="#"><img src="img/${figuras[i]}.jpg" alt="Imagen ${figuras[i]}" class="img-fluid mini"></a>`;
+      `<a href="#"><img src="img/${figuras[i]}.jpg" alt="Imagen ${figuras[i]}" class="img-fluid mini" onclick="mostrarPrincipal(i)"></a>`;
   }
 }
 

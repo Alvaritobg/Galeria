@@ -15,6 +15,7 @@ function mostrarPrincipal(i) {
 function inicio() {
   //mostrar imagen principal
   mostrarPrincipal(0);
+  temporizador();
   //mostrar imagenes de las 4 miniaturas
   for (var i = 1; i <= 4; i++) {
       document.getElementById("dmini01").innerHTML +=
@@ -31,4 +32,8 @@ function fotoDerecha() {
 function fotoIzquierda() {
   contador = (contador == 0) ? tope : --contador;
   mostrarPrincipal(contador);
+}
+// pasa de imagen automaticamente cada x segundos
+function temporizador () {
+  setInterval(fotoDerecha, 5000);
 }
